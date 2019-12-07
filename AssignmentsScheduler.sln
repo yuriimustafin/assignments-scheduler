@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskScheduler.API", "src\TaskScheduler.API\TaskScheduler.API.csproj", "{4E0D5721-5349-49B1-B9E1-7E3DC675FF3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssignmentsScheduler.API", "src\AssignmentsScheduler.API\AssignmentsScheduler.API.csproj", "{4E0D5721-5349-49B1-B9E1-7E3DC675FF3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskScheduler.Domain.Abstract", "TaskScheduler.Domain.Abstract\TaskScheduler.Domain.Abstract.csproj", "{7D7620B4-26E8-45E7-ABE9-DD0DB4186EF5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssignmentsScheduler.Domain.Abstract", "src\AssignmentsScheduler.Domain.Abstract\AssignmentsScheduler.Domain.Abstract.csproj", "{7D7620B4-26E8-45E7-ABE9-DD0DB4186EF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssignmentsScheduler.Domain.Models", "src\AssignmentsScheduler.Domain.Models\AssignmentsScheduler.Domain.Models.csproj", "{2C554EC8-1B28-4576-A831-F79A1D8D4FA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7D7620B4-26E8-45E7-ABE9-DD0DB4186EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D7620B4-26E8-45E7-ABE9-DD0DB4186EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D7620B4-26E8-45E7-ABE9-DD0DB4186EF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C554EC8-1B28-4576-A831-F79A1D8D4FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C554EC8-1B28-4576-A831-F79A1D8D4FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C554EC8-1B28-4576-A831-F79A1D8D4FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C554EC8-1B28-4576-A831-F79A1D8D4FA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

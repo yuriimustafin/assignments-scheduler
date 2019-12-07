@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TaskScheduler.Domain.Abstract
+namespace AssignmentsScheduler.Domain.Abstract
 {
     class Program
     {
