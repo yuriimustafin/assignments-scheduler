@@ -1,12 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\AssignmentsScheduler.Domain.Models\AssignmentsScheduler.Domain.Models.csproj" />
+    <ProjectReference Include="..\AssignmentsScheduler.Domain.Models\AssignmentsScheduler.Domain.Models.csproj" />
   </ItemGroup>
 
 </Project>

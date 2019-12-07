@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AssignmentsScheduler.Domain.Abstract;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,6 +12,12 @@ namespace AssignmentsScheduler.API.Controllers
     [ApiController]
     public class AssignmentsController : ControllerBase
     {
+        private readonly IAssignmentsService _assignmentsService;
+
+        public AssignmentsController(IAssignmentsService assignmentsService)
+        {
+            _assignmentsService = assignmentsService;
+        }
         // GET: api/Assignment
         [HttpGet]
         public IEnumerable<string> Get()
